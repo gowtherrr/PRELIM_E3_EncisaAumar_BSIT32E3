@@ -1,0 +1,97 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url('Background.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+h, h2, h3 {
+    font-family: 'Century Gothic';
+    color: #fff200;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Century Gothic';
+    color: #fff200;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.pfp-image {
+    height: 200px;
+    width: 200px;
+    background-image: url('Pfp.jpg');
+    background-size: cover;
+    float: none;
+    margin: 100px 10px 10px calc(50% + 250px); 
+}
+
+
+.nav-links {
+    font-family: 'Century Gothic';
+    background-color: whitesmoke;
+}
+
+    .nav-links:hover {
+        background-color: #e49ae5;
+    }
+h, h2, h3 {
+    font-family: 'Century Gothic';
+    color: #fff200;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Century Gothic';
+    color: #fff200;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.pfp-image {
+    height: 200px;
+    width: 200px;
+    background-image: url('Pfp.jpg');
+    background-size: 100% 100%;
+    float: none;
+    margin: 100px 10px 10px 550px;
+}
+
+
+.nav-links {
+    font-family: 'Century Gothic';
+    background-color: whitesmoke;
+}
+
+    .nav-links:hover {
+        background-color: #e49ae5;
+    }
